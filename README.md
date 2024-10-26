@@ -34,3 +34,13 @@ The *hash_password* function hashes a password using SHA-256, providing a secure
 - hashlib.sha256(...) computes the SHA-256 hash of the password.
 - .hexdigest() converts the hash to a readable hexadecimal string.
 3. Finally, return sha_signature will output a hashed, hexadecimal representation when ran.
+
+## Password Output Function
+
+<img src="https://github.com/user-attachments/assets/22b7ebe4-8bb7-4cc2-bb28-a1e74d5edab0" width=500>
+
+This lets you see the password created by the generator.
+
+<img src="https://github.com/user-attachments/assets/9b95660a-31e0-4e10-a0f3-04a75480e840" width=500>
+
+This hash is a secure, irreversible representation of the password, ideal for storage. Make sure to keep it safe!
