@@ -14,3 +14,4 @@ This project is a Python-based tool that generates secure, randomized passwords 
 
 1. The *secrets* module is specifically designed for generating cryptographically secure random numbers, making it ideal for creating secure passwords and other sensitive data. It provides a higher level of randomness and security than the standard random module.
 2. The *string* module provides constants for commonly used character sets, like all uppercase and lowercase letters (string.ascii_letters), digits (string.digits), and punctuation (string.punctuation). This allows you to easily create a pool of characters for generating diverse passwords.
+3. The *hashlib* module provides access to secure hash functions, like SHA-256. These functions take an input and generate a fixed-length hash, useful for securely storing passwords by creating unique representations that can’t be reversed to reveal the original input.
