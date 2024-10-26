@@ -23,3 +23,14 @@ This project is a Python-based tool that generates secure, randomized passwords 
 1. We create a string *characters* containing all possible characters for our password.
 2. We use *secrets.choice()* which will randomly select characters from this string. It's more secure than using *random.choice()* because it uses the operating system’s cryptographically secure random number generator.
 3. Joining all selected characters into a single string with *''.join(...)*, resulting in our password.
+
+## Hashing Password Function 
+
+<img src="https://github.com/user-attachments/assets/23b7ab8b-8d6a-4b17-8646-12618e1e8819" width=500>
+
+The *hash_password* function hashes a password using SHA-256, providing a secure, unique representation.
+1. password.encode(): Converts the password to bytes since SHA-256 requires byte input.
+2. hashlib.sha256(...).hexdigest():
+- hashlib.sha256(...) computes the SHA-256 hash of the password.
+- .hexdigest() converts the hash to a readable hexadecimal string.
+3. Finally, return sha_signature will output a hashed, hexadecimal representation when ran.
