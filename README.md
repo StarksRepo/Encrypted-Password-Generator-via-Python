@@ -12,4 +12,4 @@ This project is a Python-based tool that generates secure, randomized passwords 
 
 <img src="https://github.com/user-attachments/assets/10538c8f-25ab-49e8-a999-7159f0891f12" width =400>
 
-1. The secrets module is specifically designed for generating cryptographically secure random numbers, making it ideal for creating secure passwords and other sensitive data. It provides a higher level of randomness and security than the standard random module.
+1. The *secrets* module is specifically designed for generating cryptographically secure random numbers, making it ideal for creating secure passwords and other sensitive data. It provides a higher level of randomness and security than the standard random module.
