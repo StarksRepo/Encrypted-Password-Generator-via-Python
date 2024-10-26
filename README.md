@@ -19,3 +19,7 @@ This project is a Python-based tool that generates secure, randomized passwords 
 ## Password Generator Function
 
 <img src="https://github.com/user-attachments/assets/18908f6f-18d3-4ce2-a31f-ab57b2b036f4" width=600>
+
+1. We create a string *characters* containing all possible characters for our password.
+2. We use *secrets.choice()* which will randomly select characters from this string. It's more secure than using *random.choice()* because it uses the operating system’s cryptographically secure random number generator.
+3. Joining all selected characters into a single string with *''.join(...)*, resulting in our password.
